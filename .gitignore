@@ -25,6 +25,7 @@
 .vscode
 nbproject
 Thumbs.db
+yarn.lock
 package-lock.json
 jsconfig.json
 
@@ -38,6 +39,3 @@ build/
 # Linter cache
 .eslintcache
 .stylelintcache
-
-# TSC build cache
-.tsbuildinfo
