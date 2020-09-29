@@ -1,0 +1,70 @@
+[
+    {
+        "label": "client.defaultcategories.children",
+        "color": "#A295D6"
+    },
+    {
+        "label": "client.defaultcategories.clothing",
+        "color": "#8E44AD"
+    },
+    {
+        "label": "client.defaultcategories.groceries",
+        "color": "#DB9320"
+    },
+    {
+        "label": "client.defaultcategories.health",
+        "color": "#D10069"
+    },
+    {
+        "label": "client.defaultcategories.holidays",
+        "color": "#004E00"
+    },
+    {
+        "label": "client.defaultcategories.housing",
+        "color": "#AD8D43"
+    },
+    {
+        "label": "client.defaultcategories.income",
+        "color": "#428BCA"
+    },
+    {
+        "label": "client.defaultcategories.internetTVphone",
+        "color": "#D1D100"
+    },
+    {
+        "label": "client.defaultcategories.others",
+        "color": ""
+    },
+    {
+        "label": "client.defaultcategories.parties",
+        "color": "#FFF600"
+    },
+    {
+        "label": "client.defaultcategories.pets",
+        "color": "#FF4CAB"
+    },
+    {
+        "label": "client.defaultcategories.savings",
+        "color": "#69D100"
+    },
+    {
+        "label": "client.defaultcategories.sportsfunculture",
+        "color": "#A8D695"
+    },
+    {
+        "label": "client.defaultcategories.taxes",
+        "color": "#D9534F"
+    },
+    {
+        "label": "client.defaultcategories.tobacco",
+        "color": "#777777"
+    },
+    {
+        "label": "client.defaultcategories.transports",
+        "color": "#44AD8E"
+    },
+    {
+        "label": "client.defaultcategories.work",
+        "color": "#7F8C8D"
+    }
+]

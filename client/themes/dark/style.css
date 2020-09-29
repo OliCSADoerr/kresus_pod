@@ -1,0 +1,307 @@
+@import '~../light/style.css';
+
+:root {
+    --wells-received-color: #00CA62;
+    --wells-saved-color: #FFFFFF;
+    --charts-lines-color: #6792D8;
+    --charts-axis-color: #FFFFFF;
+    --main-font-color: white;
+    --popover-background-color: #444444;
+    --popover-border-color: #222222;
+    --popover-shadow-color: #000000;
+}
+
+body {
+    color: #F9FCFE;
+    background: #3D424C;
+}
+
+a,
+a:hover,
+a:focus {
+    color: #337AB7;
+    text-decoration: none;
+    outline: 0;
+}
+
+input[type='checkbox'] {
+    border-color: #FFFFFF;
+    background-color: transparent;
+}
+
+input[type='checkbox']:checked {
+    color: #666666;
+    background-color: #FFFFFF;
+}
+
+input[type='checkbox'].switch:not(:checked) {
+    background-color: white;
+}
+
+input[type='checkbox'].switch:not(:checked)::after {
+    background-color: #555555;
+}
+
+.c3-tooltip-container {
+    color: black;
+}
+
+/* Onboarding */
+.onboarding {
+    background-color: #2D2C2C;
+    color: white;
+    border-left-color: #555555;
+    border-right-color: #555555;
+}
+
+.onboarding header a {
+    color: #6792D8;
+}
+
+.onboarding-panes > a {
+    border-color: #555555;
+    color: #FFFFFF;
+}
+
+.onboarding-panes > a:hover,
+.onboarding-panes > a:focus {
+    box-shadow: none;
+    background-color: #3D424C;
+}
+
+#content {
+    background-color: #54575C;
+    color: #F9FCFE;
+}
+
+header,
+main nav {
+    background-color: #2D2C2C;
+    color: #FFFFFF;
+}
+
+main nav {
+    border-right-color: transparent;
+}
+
+table caption {
+    color: inherit;
+    background-color: #444444;
+}
+
+table:not(.no-hover) > tbody > tr:hover {
+    background-color: #4A4949;
+}
+
+table.striped > tbody > tr:nth-of-type(2n+1) {
+    background-color: #3C3C3C;
+}
+
+.tabs-container-selector li a {
+    color: white;
+}
+
+.tabs-container-selector li a.active {
+    color: #444444;
+    background-color: white;
+    border-color: white;
+}
+
+.tabs-container-selector li a:not(.active):hover {
+    background-color: #444444;
+}
+
+.btn.transparent {
+    color: #E9E9E9;
+}
+
+.btn.transparent:hover {
+    color: white;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.input-with-addon > .btn:hover {
+    background-color: #444444;
+    color: #FFFFFF;
+}
+
+main nav .bank-details .bank-name {
+    color: #FFFFFF;
+}
+
+main nav .bank-details .bank-name .bank-sum {
+    color: #C5C6C9;
+}
+
+main nav .bank-details > li.active .bank-name button:hover,
+main nav .bank-details > li.active .bank-name button:focus {
+    color: white;
+}
+
+main nav .bank-details .amount.positive {
+    color: var(--wells-received-color);
+}
+
+main nav .bank-details > li > .accounts > li a {
+    border-left-color: #6792D8;
+    color: #C5C6C9;
+}
+
+main nav .bank-details > li > .accounts > li a:hover,
+main nav .bank-details > li > .accounts > li a:focus {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-left-color: #242491;
+    color: #FFFFFF;
+}
+
+main nav .bank-details > li > .accounts > li a.active:hover,
+main nav .bank-details > li > .accounts > li a.active:focus {
+    background-color: #6792D8;
+    border-left-color: #6792D8;
+}
+
+.sidebar-list > ul > li,
+.sidebar-section-list li > a {
+    color: white;
+}
+
+.sidebar-section-list li > a:hover,
+.sidebar-section-list li > a:focus {
+    color: inherit;
+    background-color: #3B3B3B;
+}
+
+.sidebar-section-list li > a.active {
+    border-top-color: #2C2C2C;
+    border-bottom-color: #2C2C2C;
+}
+
+.sidebar-section-list li > a.active,
+.sidebar-section-list li span.badge {
+    background: #6792D8;
+    color: white;
+}
+
+.sidebar-section-list li > a.active span.badge {
+    color: #6792D8;
+    background-color: white;
+}
+
+.sidebar-about {
+    color: white;
+}
+
+.sidebar-about a {
+    color: inherit;
+}
+
+.search-summary li.received {
+    color: var(--wells-received-color);
+    background-color: transparent;
+}
+
+.search-summary li.spent {
+    color: var(--wells-spent-color);
+    background-color: transparent;
+}
+
+.search-summary li.saved {
+    color: var(--wells-saved-color);
+    background-color: transparent;
+}
+
+.operation-table th,
+.operation-table td {
+    border-color: #444444;
+}
+
+/* Due to bug a painting bug in Firefox (see https://bugzilla.mozilla.org/show_bug.cgi?id=1637225),
+ * an unwanted border might appear on the separators when modifying the category of a row below.
+ * This hack literally applies a "patch" (a rectangle with the color of the background) above the
+ * border.
+ */
+.operation-table tr.month-year-separator td::after {
+    background-color: #54575C;
+}
+
+/* End of hack */
+
+.operation-table > tbody > tr.income td.amount {
+    color: #00BFF3;
+}
+
+.operation-table td.modale-button > button {
+    color: inherit;
+}
+
+/* Charts */
+#barchart {
+    color: black;
+}
+
+.support-about li {
+    border-color: #6792D8;
+}
+
+.support-about li span.label {
+    background-color: #6792D8;
+}
+
+.about a {
+    color: #6792D8;
+}
+
+/* Dashboard */
+#dashboard .accesses-list > li > .dashboard-access-summary {
+    background-color: #444444;
+    border-bottom-color: currentColor;
+}
+
+#dashboard .accesses-list > li .bank-summary {
+    color: inherit;
+}
+
+#dashboard .accesses-list > li .accounts li a:hover::before,
+#dashboard .accesses-list > li .accounts li a:active::before,
+#dashboard .accesses-list > li .accounts li a:focus::before {
+    color: white;
+}
+
+/* Modales */
+.ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.ReactModal__Content {
+    border-color: black !important;
+    background-color: #444444 !important;
+    color: white;
+}
+
+.ReactModal__Content input,
+.ReactModal__Content select,
+.ReactModal__Content .Select-control {
+    background-color: white;
+}
+
+.modal-body .cols-with-label input,
+.modal-body .cols-with-label select,
+.modal-body .cols-with-label .Select {
+    color: #555555;
+}
+
+#loading-overlay {
+    background-color: #444444;
+}
+
+#loading-overlay > .loading-message,
+#loading-overlay > .loading-message h3 {
+    background-color: transparent;
+}
+
+#loading-overlay > .loading-message h3 {
+    color: #F1F1F1;
+}

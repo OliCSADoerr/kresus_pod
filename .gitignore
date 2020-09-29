@@ -1,0 +1,43 @@
+# React cache dirs
+*.module-cache
+
+# Numerous always-ignored extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*.pyc
+*~
+*.sass-cache
+*.list
+*.ini
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+.vscode
+nbproject
+Thumbs.db
+package-lock.json
+jsconfig.json
+
+# Misc folders
+logs
+!client/components/settings/logs
+node_modules/
+build/
+!scripts/build
+
+# Linter cache
+.eslintcache
+.stylelintcache
+
+# TSC build cache
+.tsbuildinfo

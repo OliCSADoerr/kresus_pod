@@ -1,0 +1,1159 @@
+[
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Association française d'épargne et de retraite",
+        "uuid": "afer"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "name": "code_file",
+                "type": "text"
+            },
+            {
+                "name": "phone",
+                "type": "text"
+            }
+        ],
+        "deprecated": false,
+        "name": "Amazon Store Card",
+        "uuid": "amazonstorecard"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "American Express",
+        "uuid": "americanexpress"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "default": "ee",
+                "name": "website",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "Amundi Epargne Entreprise",
+                        "value": "ee"
+                    },
+                    {
+                        "label": "Amundi Tenue de Compte",
+                        "value": "tc"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "Amundi",
+        "uuid": "amundi"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Apivie",
+        "uuid": "apivie"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Aviva",
+        "uuid": "aviva"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "AXA Banque",
+        "uuid": "axabanque"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Banque Accord",
+        "uuid": "banqueaccord"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "name": "website",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "Crédit Maritime Atlantique (www.ibps.atlantique.creditmaritime.groupe.banquepopulaire.fr)",
+                        "value": "www.ibps.atlantique.creditmaritime.groupe.banquepopulaire.fr"
+                    },
+                    {
+                        "label": "Banque de Savoie (www.ibps.banquedesavoie.banquepopulaire.fr)",
+                        "value": "www.ibps.banquedesavoie.banquepopulaire.fr"
+                    },
+                    {
+                        "label": "Aquitaine Centre atlantique (www.ibps.bpaca.banquepopulaire.fr)",
+                        "value": "www.ibps.bpaca.banquepopulaire.fr"
+                    },
+                    {
+                        "label": "Alsace Lorraine Champagne (www.ibps.bpalc.banquepopulaire.fr)",
+                        "value": "www.ibps.bpalc.banquepopulaire.fr"
+                    },
+                    {
+                        "label": "Auvergne Rhône Alpes (www.ibps.bpaura.banquepopulaire.fr)",
+                        "value": "www.ibps.bpaura.banquepopulaire.fr"
+                    },
+                    {
+                        "label": "Bourgogne Franche-Comté (www.ibps.bpbfc.banquepopulaire.fr)",
+                        "value": "www.ibps.bpbfc.banquepopulaire.fr"
+                    },
+                    {
+                        "label": "Grand Ouest (www.ibps.bpgo.banquepopulaire.fr)",
+                        "value": "www.ibps.bpgo.banquepopulaire.fr"
+                    },
+                    {
+                        "label": "Crédit Maritime Bretagne Normandie (www.ibps.bretagnenormandie.cmm.groupe.banquepopulaire.fr)",
+                        "value": "www.ibps.bretagnenormandie.cmm.groupe.banquepopulaire.fr"
+                    },
+                    {
+                        "label": "Méditerranée (www.ibps.mediterranee.banquepopulaire.fr)",
+                        "value": "www.ibps.mediterranee.banquepopulaire.fr"
+                    },
+                    {
+                        "label": "Nord (www.ibps.nord.banquepopulaire.fr)",
+                        "value": "www.ibps.nord.banquepopulaire.fr"
+                    },
+                    {
+                        "label": "Occitane (www.ibps.occitane.banquepopulaire.fr)",
+                        "value": "www.ibps.occitane.banquepopulaire.fr"
+                    },
+                    {
+                        "label": "Rives de Paris (www.ibps.rivesparis.banquepopulaire.fr)",
+                        "value": "www.ibps.rivesparis.banquepopulaire.fr"
+                    },
+                    {
+                        "label": "Sud (www.ibps.sud.banquepopulaire.fr)",
+                        "value": "www.ibps.sud.banquepopulaire.fr"
+                    },
+                    {
+                        "label": "Val de France (www.ibps.valdefrance.banquepopulaire.fr)",
+                        "value": "www.ibps.valdefrance.banquepopulaire.fr"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "Banque Populaire",
+        "uuid": "banquepopulaire"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "name": "secret",
+                "placeholderKey": "client.settings.secret_placeholder",
+                "type": "password"
+            }
+        ],
+        "deprecated": false,
+        "name": "Barclays",
+        "uuid": "barclays"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Banque Européenne Crédit Mutuel",
+        "uuid": "becm"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "name": "birthdate",
+                "type": "text"
+            }
+        ],
+        "deprecated": false,
+        "name": "BforBank",
+        "uuid": "bforbank"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Binck",
+        "uuid": "binck"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "default": "1",
+                "name": "type",
+                "optional": true,
+                "type": "select",
+                "values": [
+                    {
+                        "label": "Titulaire",
+                        "value": "1"
+                    },
+                    {
+                        "label": "Gestionnaire",
+                        "value": "2"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "BNP Cartes Entreprises",
+        "uuid": "bnpcards"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "name": "digital_key",
+                "optional": true,
+                "type": "select",
+                "values": [
+                    {
+                        "label": "False",
+                        "value": "n"
+                    },
+                    {
+                        "label": "True",
+                        "value": "y"
+                    }
+                ]
+            },
+            {
+                "name": "rotating_password",
+                "optional": true,
+                "type": "select",
+                "values": [
+                    {
+                        "label": "False",
+                        "value": "n"
+                    },
+                    {
+                        "label": "True",
+                        "value": "y"
+                    }
+                ]
+            },
+            {
+                "default": "pp",
+                "name": "website",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "Entreprises",
+                        "value": "ent"
+                    },
+                    {
+                        "label": "Entreprises et PME (nouveau site)",
+                        "value": "ent2"
+                    },
+                    {
+                        "label": "HelloBank",
+                        "value": "hbank"
+                    },
+                    {
+                        "label": "Particuliers/Professionnels",
+                        "value": "pp"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "BNP Paribas",
+        "uuid": "bnporc"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "default": "personeo",
+                "name": "website",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "PEE, PERCO (Personeo)",
+                        "value": "personeo"
+                    },
+                    {
+                        "label": "PER Entreprises (Visiogo)",
+                        "value": "visiogo"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "BNP Épargne Salariale",
+        "uuid": "bnppere"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Bolden",
+        "uuid": "bolden"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Boursorama",
+        "uuid": "boursorama"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "default": "par",
+                "name": "website",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "Particuliers",
+                        "value": "par"
+                    },
+                    {
+                        "label": "Professionnels",
+                        "value": "pro"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "La Banque Postale",
+        "uuid": "bp"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "name": "accnum",
+                "optional": true,
+                "type": "text"
+            },
+            {
+                "default": "bred",
+                "name": "website",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "BRED",
+                        "value": "bred"
+                    },
+                    {
+                        "label": "DispoBank",
+                        "value": "dispobank"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "Bred",
+        "uuid": "bred"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "default": "weak",
+                "name": "auth_type",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "Sesame (pro)",
+                        "value": "strong"
+                    },
+                    {
+                        "label": "Code confidentiel (pro)",
+                        "value": "weak"
+                    }
+                ]
+            },
+            {
+                "name": "nuser",
+                "optional": true,
+                "type": "text"
+            }
+        ],
+        "deprecated": false,
+        "name": "BTP Banque",
+        "uuid": "btpbanque"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Crédit Agricole - Épargne Longue des Salariés",
+        "uuid": "caels"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "name": "nuser",
+                "optional": true,
+                "type": "text"
+            },
+            {
+                "default": "www.caisse-epargne.fr",
+                "name": "website",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "Banque BCP (www.banquebcp.fr)",
+                        "value": "www.banquebcp.fr"
+                    },
+                    {
+                        "label": "Caisse d'Épargne (www.caisse-epargne.fr)",
+                        "value": "www.caisse-epargne.fr"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "Caisse d'Épargne",
+        "uuid": "caissedepargne"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "AXA Épargne Salariale",
+        "uuid": "capeasi"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Carrefour Banque",
+        "uuid": "carrefourbanque"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "CIC",
+        "uuid": "cic"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "CIC Épargne Salariale",
+        "uuid": "cices"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Citibank",
+        "uuid": "citibank"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "default": "par",
+                "name": "website",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "Particuliers",
+                        "value": "par"
+                    },
+                    {
+                        "label": "Professionnels",
+                        "value": "pro"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "Crédit Mutuel de Bretagne",
+        "uuid": "cmb"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Crédit Mutuel Épargne Salariale",
+        "uuid": "cmes"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "default": "par",
+                "name": "website",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "Particuliers",
+                        "value": "par"
+                    },
+                    {
+                        "label": "Professionnels",
+                        "value": "pro"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "Crédit Mutuel Sud-Ouest",
+        "uuid": "cmso"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "name": "website",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "Alpes Provence (www.ca-alpesprovence.fr)",
+                        "value": "www.ca-alpesprovence.fr"
+                    },
+                    {
+                        "label": "Alsace-Vosges (www.ca-alsace-vosges.fr)",
+                        "value": "www.ca-alsace-vosges.fr"
+                    },
+                    {
+                        "label": "Anjou Maine (www.ca-anjou-maine.fr)",
+                        "value": "www.ca-anjou-maine.fr"
+                    },
+                    {
+                        "label": "Aquitaine (www.ca-aquitaine.fr)",
+                        "value": "www.ca-aquitaine.fr"
+                    },
+                    {
+                        "label": "Atlantique Vendée (www.ca-atlantique-vendee.fr)",
+                        "value": "www.ca-atlantique-vendee.fr"
+                    },
+                    {
+                        "label": "Brie Picardie (www.ca-briepicardie.fr)",
+                        "value": "www.ca-briepicardie.fr"
+                    },
+                    {
+                        "label": "Champagne Bourgogne (www.ca-cb.fr)",
+                        "value": "www.ca-cb.fr"
+                    },
+                    {
+                        "label": "Centre France (www.ca-centrefrance.fr)",
+                        "value": "www.ca-centrefrance.fr"
+                    },
+                    {
+                        "label": "Centre Loire (www.ca-centreloire.fr)",
+                        "value": "www.ca-centreloire.fr"
+                    },
+                    {
+                        "label": "Centre Ouest (www.ca-centreouest.fr)",
+                        "value": "www.ca-centreouest.fr"
+                    },
+                    {
+                        "label": "Centre Est (www.ca-centrest.fr)",
+                        "value": "www.ca-centrest.fr"
+                    },
+                    {
+                        "label": "Charente Périgord (www.ca-charente-perigord.fr)",
+                        "value": "www.ca-charente-perigord.fr"
+                    },
+                    {
+                        "label": "Charente-Maritime Deux-Sèvres (www.ca-cmds.fr)",
+                        "value": "www.ca-cmds.fr"
+                    },
+                    {
+                        "label": "Corse (www.ca-corse.fr)",
+                        "value": "www.ca-corse.fr"
+                    },
+                    {
+                        "label": "Côtes d'Armor (www.ca-cotesdarmor.fr)",
+                        "value": "www.ca-cotesdarmor.fr"
+                    },
+                    {
+                        "label": "Des Savoie (www.ca-des-savoie.fr)",
+                        "value": "www.ca-des-savoie.fr"
+                    },
+                    {
+                        "label": "Finistere (www.ca-finistere.fr)",
+                        "value": "www.ca-finistere.fr"
+                    },
+                    {
+                        "label": "Franche-Comté (www.ca-franchecomte.fr)",
+                        "value": "www.ca-franchecomte.fr"
+                    },
+                    {
+                        "label": "Guadeloupe (www.ca-guadeloupe.fr)",
+                        "value": "www.ca-guadeloupe.fr"
+                    },
+                    {
+                        "label": "Ille-et-Vilaine (www.ca-illeetvilaine.fr)",
+                        "value": "www.ca-illeetvilaine.fr"
+                    },
+                    {
+                        "label": "Languedoc (www.ca-languedoc.fr)",
+                        "value": "www.ca-languedoc.fr"
+                    },
+                    {
+                        "label": "Loire Haute Loire (www.ca-loirehauteloire.fr)",
+                        "value": "www.ca-loirehauteloire.fr"
+                    },
+                    {
+                        "label": "Lorraine (www.ca-lorraine.fr)",
+                        "value": "www.ca-lorraine.fr"
+                    },
+                    {
+                        "label": "Martinique Guyane (www.ca-martinique.fr)",
+                        "value": "www.ca-martinique.fr"
+                    },
+                    {
+                        "label": "Morbihan (www.ca-morbihan.fr)",
+                        "value": "www.ca-morbihan.fr"
+                    },
+                    {
+                        "label": "Nord Midi-Pyrénées (www.ca-nmp.fr)",
+                        "value": "www.ca-nmp.fr"
+                    },
+                    {
+                        "label": "Nord Est (www.ca-nord-est.fr)",
+                        "value": "www.ca-nord-est.fr"
+                    },
+                    {
+                        "label": "Nord de France (www.ca-norddefrance.fr)",
+                        "value": "www.ca-norddefrance.fr"
+                    },
+                    {
+                        "label": "Normandie Seine (www.ca-normandie-seine.fr)",
+                        "value": "www.ca-normandie-seine.fr"
+                    },
+                    {
+                        "label": "Normandie (www.ca-normandie.fr)",
+                        "value": "www.ca-normandie.fr"
+                    },
+                    {
+                        "label": "Ile-de-France (www.ca-paris.fr)",
+                        "value": "www.ca-paris.fr"
+                    },
+                    {
+                        "label": "Provence Côte d'Azur (www.ca-pca.fr)",
+                        "value": "www.ca-pca.fr"
+                    },
+                    {
+                        "label": "Pyrénées Gascogne (www.ca-pyrenees-gascogne.fr)",
+                        "value": "www.ca-pyrenees-gascogne.fr"
+                    },
+                    {
+                        "label": "Réunion (www.ca-reunion.fr)",
+                        "value": "www.ca-reunion.fr"
+                    },
+                    {
+                        "label": "Sud Méditerranée (www.ca-sudmed.fr)",
+                        "value": "www.ca-sudmed.fr"
+                    },
+                    {
+                        "label": "Sud Rhône Alpes (www.ca-sudrhonealpes.fr)",
+                        "value": "www.ca-sudrhonealpes.fr"
+                    },
+                    {
+                        "label": "Toulouse 31 (www.ca-toulouse31.fr)",
+                        "value": "www.ca-toulouse31.fr"
+                    },
+                    {
+                        "label": "Tourraine Poitou (www.ca-tourainepoitou.fr)",
+                        "value": "www.ca-tourainepoitou.fr"
+                    },
+                    {
+                        "label": "Val de France (www.ca-valdefrance.fr)",
+                        "value": "www.ca-valdefrance.fr"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "Crédit Agricole",
+        "uuid": "cragr"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "default": "particular",
+                "name": "auth_type",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "Interface Particuliers",
+                        "value": "particular"
+                    },
+                    {
+                        "label": "Sesame (pro)",
+                        "value": "strong"
+                    },
+                    {
+                        "label": "Code confidentiel (pro)",
+                        "value": "weak"
+                    }
+                ]
+            },
+            {
+                "name": "nuser",
+                "optional": true,
+                "type": "text"
+            }
+        ],
+        "deprecated": false,
+        "name": "Crédit Coopératif",
+        "uuid": "creditcooperatif"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "default": "www.credit-du-nord.fr",
+                "name": "website",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "Banque Courtois (www.banque-courtois.fr)",
+                        "value": "www.banque-courtois.fr"
+                    },
+                    {
+                        "label": "Banque Kolb (www.banque-kolb.fr)",
+                        "value": "www.banque-kolb.fr"
+                    },
+                    {
+                        "label": "Banque Laydernier (www.banque-laydernier.fr)",
+                        "value": "www.banque-laydernier.fr"
+                    },
+                    {
+                        "label": "Banque Nuger (www.banque-nuger.fr)",
+                        "value": "www.banque-nuger.fr"
+                    },
+                    {
+                        "label": "Banque Rhône-Alpes (www.banque-rhone-alpes.fr)",
+                        "value": "www.banque-rhone-alpes.fr"
+                    },
+                    {
+                        "label": "Crédit du Nord (www.credit-du-nord.fr)",
+                        "value": "www.credit-du-nord.fr"
+                    },
+                    {
+                        "label": "Société Marseillaise de Crédit (www.smc.fr)",
+                        "value": "www.smc.fr"
+                    },
+                    {
+                        "label": "Tarneaud (www.tarneaud.fr)",
+                        "value": "www.tarneaud.fr"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "Crédit du Nord, Banque Courtois, Kolb, Nuger, Laydernier, Tarneaud, Société Marseillaise de Crédit",
+        "uuid": "creditdunord"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Crédit du Nord Épargne Salariale",
+        "uuid": "creditdunordpee"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Crédit Mutuel",
+        "uuid": "creditmutuel"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "De giro",
+        "uuid": "degiro"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Banque Delubac & Cie",
+        "uuid": "delubac"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "HSBC Épargne Salariale",
+        "uuid": "erehsbc"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Société Générale Épargne Salariale",
+        "uuid": "esalia"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Fortuneo",
+        "uuid": "fortuneo"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Gan Assurances",
+        "uuid": "ganassurances"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "GMF",
+        "uuid": "gmf"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Groupama Épargne Salariale",
+        "uuid": "groupamaes"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "name": "digital_key",
+                "optional": true,
+                "type": "select",
+                "values": [
+                    {
+                        "label": "False",
+                        "value": "n"
+                    },
+                    {
+                        "label": "True",
+                        "value": "y"
+                    }
+                ]
+            },
+            {
+                "name": "rotating_password",
+                "optional": true,
+                "type": "select",
+                "values": [
+                    {
+                        "label": "False",
+                        "value": "n"
+                    },
+                    {
+                        "label": "True",
+                        "value": "y"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "BNP Paribas",
+        "uuid": "hellobank"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "name": "secret",
+                "placeholderKey": "client.settings.secret_placeholder",
+                "type": "password"
+            }
+        ],
+        "deprecated": false,
+        "name": "HSBC France",
+        "uuid": "hsbc"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "name": "secret",
+                "placeholderKey": "client.settings.secret_placeholder",
+                "type": "password"
+            }
+        ],
+        "deprecated": false,
+        "name": "HSBC Hong Kong",
+        "uuid": "hsbchk"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Humanis Épargne Salariale",
+        "uuid": "humanis"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "name": "birthday",
+                "placeholderKey": "client.settings.birthday_placeholder",
+                "type": "text"
+            }
+        ],
+        "deprecated": false,
+        "name": "ING France",
+        "uuid": "ing"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Kiwibank",
+        "uuid": "kiwibank"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "default": "par",
+                "name": "website",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "e.LCL",
+                        "value": "elcl"
+                    },
+                    {
+                        "label": "Entreprises",
+                        "value": "ent"
+                    },
+                    {
+                        "label": "Espace Pro",
+                        "value": "esp"
+                    },
+                    {
+                        "label": "Particuliers",
+                        "value": "par"
+                    },
+                    {
+                        "label": "Professionnels",
+                        "value": "pro"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "LCL",
+        "uuid": "lcl"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "MyEdenRed",
+        "uuid": "myedenred"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Bank N26",
+        "uuid": "n26"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Nalo",
+        "uuid": "nalo"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "La Nef",
+        "uuid": "nef"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "netfinca website",
+        "uuid": "netfinca"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Oney",
+        "uuid": "oney"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "PayPal",
+        "uuid": "paypal"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Prado Épargne Salariale",
+        "uuid": "pradoepargne"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "default": "par",
+                "name": "website",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "Entreprises",
+                        "value": "ent"
+                    },
+                    {
+                        "label": "Particuliers",
+                        "value": "par"
+                    },
+                    {
+                        "label": "Professionnels",
+                        "value": "pro"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "Société Générale",
+        "uuid": "societegenerale"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "default": "titulaire",
+                "name": "website",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "Accès Administrateur Entreprise",
+                        "value": "entreprise"
+                    },
+                    {
+                        "label": "Accès Titulaire de carte Affaires",
+                        "value": "titulaire"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "Sogecarte Net",
+        "uuid": "sogecartenet"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Spirica",
+        "uuid": "spirica"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "name": "broker",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "assurancevie.com",
+                        "value": "assurancevie.com"
+                    },
+                    {
+                        "label": "epargnissimo",
+                        "value": "epargnissimo"
+                    },
+                    {
+                        "label": "linxea",
+                        "value": "linxea"
+                    },
+                    {
+                        "label": "mes-placements.fr",
+                        "value": "mes-placements.fr"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "Assurance-vie Suravenir à travers différents courtiers (assurancevie.com, linxea, ...)",
+        "uuid": "suravenir"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Swile",
+        "uuid": "swile"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Themis",
+        "uuid": "themisbanque"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Tickets CESU Edenred",
+        "uuid": "ticketscesu"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Victoria's Secret Angel Card",
+        "uuid": "vicseccard"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": false,
+        "name": "Yomoni",
+        "uuid": "yomoni"
+    },
+    {
+        "backend": "manual",
+        "deprecated": false,
+        "name": "Manual Bank",
+        "uuid": "manual"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": true,
+        "name": "Wells Fargo",
+        "uuid": "wellsfargo"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": true,
+        "name": "City Bank",
+        "uuid": "citelis"
+    },
+    {
+        "backend": "weboob",
+        "deprecated": true,
+        "name": "Allo Resto",
+        "uuid": "alloresto"
+    },
+    {
+        "backend": "weboob",
+        "customFields": [
+            {
+                "name": "foobar",
+                "optional": true,
+                "type": "text"
+            },
+            {
+                "name": "secret",
+                "placeholderKey": "client.settings.secret_placeholder",
+                "type": "password"
+            },
+            {
+                "default": "par",
+                "name": "website",
+                "type": "select",
+                "values": [
+                    {
+                        "label": "Particuliers",
+                        "value": "par"
+                    },
+                    {
+                        "label": "Professionnels",
+                        "value": "pro"
+                    }
+                ]
+            }
+        ],
+        "deprecated": false,
+        "name": "Fake bank module",
+        "uuid": "fakeweboobbank"
+    },
+    {
+        "backend": "demo",
+        "deprecated": false,
+        "name": "Demo bank",
+        "uuid": "demo"
+    }
+]
